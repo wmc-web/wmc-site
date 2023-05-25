@@ -1,0 +1,50 @@
+footer {
+    background: #212121;
+    color: #6e6e6e; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 0 2.5vw 0;
+    gap: 1vw;
+}
+
+footer > h3 {
+    font-size: 1.0em;
+}
+
+.foot-logo {
+    width: 14vw;
+    margin: 0.25vw auto 1.25vw auto;
+}
+
+
+.p-policy-text {
+    font-size: 0.85em;
+    width: 55%;
+    margin: auto;
+}
+
+.copyright {
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+    footer{
+        padding: 6vw 0 7vw 0;
+    }
+  }
+
+@media (max-width: 540px) {
+    footer{
+        padding: 8vw 0 10vw 0;
+    }
+    .foot-logo {
+        width: 24vw;
+        margin: 0.25vw auto 2vw auto;
+    }
+
+    .p-policy-text {
+        width: 90%;
+    }
+  }

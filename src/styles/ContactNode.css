@@ -1,0 +1,47 @@
+.contact-node {
+    text-align: center;
+    background: #f6f6f6;
+    padding: 4vw 0 6vw 0;
+}
+
+.contact-node > h1 {
+    margin-bottom: 3vw;
+}
+
+.contact-node > p {
+    margin: auto;
+    width: 55%
+}
+
+.contact-text {
+    margin-bottom: 3vw !important;
+}
+
+.red-link {
+    color: #991b1b;
+}
+
+@media (max-width: 768px) {
+    .contact-node {
+        text-align: center;
+        background: #f6f6f6;
+        padding: 7vw 0 10vw 0;
+    }
+    .contact-node > p {
+        width: 80%
+    }    
+  }
+
+@media (max-width: 540px) {
+    .contact-node {
+        text-align: center;
+        background: #f6f6f6;
+        padding: 10vw 0 12vw 0;
+    }
+    .contact-node > p {
+        width: 90%
+    }  
+    .contact-text {
+        margin-bottom: 8vw !important;
+    }  
+  }

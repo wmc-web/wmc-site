@@ -1,0 +1,89 @@
+.banner-div {
+    background-image: url(../res/img/banner_main.jpg);
+    color: white;
+    text-align: center;
+    padding: 10vw 0 1vw 0;
+}
+
+.slogan-div {
+    width: 50%;
+    margin: auto;
+    padding: 0 0 4.5vw 0;
+}
+
+
+.slogan-div > p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem !important;
+    line-height: 1.85rem;
+    letter-spacing: -0.025rem;
+    margin-bottom: 1.5vw !important;
+    font-weight: 400; 
+    width: 70%;
+    margin: 1.5vw auto 0 auto;
+    padding: 0 0 2.5vw 0;
+}
+
+.btn-override {
+    margin: 10vw auto 3.5vw auto !important;
+    font-size: 1.5vw !important;
+  }
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 1024px) {
+    .banner-div {
+        padding: 12vw 0 5vw 0;
+    }
+    .slogan-div {
+        width: 80%;
+    }
+
+    .slogan-div > p {
+        font-size: 0.9rem !important;
+        width: 80%;
+        margin: 2vw auto 3vw auto !important;
+    }
+
+    .btn-override {
+        font-size: 1.6vw !important;
+      }
+    
+  }
+@media (max-width: 768px) {
+    .banner-div {
+        padding: 15vw 0 5vw 0;
+    }
+    .slogan-div {
+        width: 80%;
+    }
+
+    .slogan-div > p {
+        font-size: 1.4rem !important;
+        width: 80%;
+        margin: 4vw auto 5vw auto !important;
+    }
+
+    .btn-override {
+        font-size: 1.6rem !important;
+      }
+    
+  }
+@media (max-width: 540px) {
+    .banner-div {
+        padding: 18vw 0 10vw 0;
+    }
+    .slogan-div {
+        width: 90%;
+    }
+
+    .slogan-div > p {
+        font-size: 1rem !important;
+        width: 100%;
+        margin: 4vw auto 10vw auto !important;
+    }
+
+    .btn-override {
+        font-size: 1.25rem !important;
+      }
+    
+  }
